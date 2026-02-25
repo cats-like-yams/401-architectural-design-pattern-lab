@@ -1,3 +1,5 @@
+package SimpleFactory;
+
 public class SUV implements Car {
     @Override
     public void assemble() {
