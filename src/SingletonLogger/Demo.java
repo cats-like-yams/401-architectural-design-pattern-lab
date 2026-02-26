@@ -7,5 +7,6 @@ public class Demo {
         logger1.log("First Message");
         logger2.log("Second Message");
         System.out.println("Same instance? " + (logger1 == logger2));
+
     }
 }
