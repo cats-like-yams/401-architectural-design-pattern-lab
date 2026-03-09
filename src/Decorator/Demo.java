@@ -1,11 +1,12 @@
 package Decorator;
 
-import java.util.List;
+import java.util.Arrays;
 
 public class Demo {
     public static void main(String[] args) {
         //basic email notifier
-        Notifier notifier = new EmailNotifier(List.of("alice@example.com", "bob@example.com"));
+
+        Notifier notifier = new EmailNotifier(Arrays.asList("alice@example.com", "bob@example.com"));
 
 
         //decorate with SMS

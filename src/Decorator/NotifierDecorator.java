@@ -1,9 +1,9 @@
 package Decorator;
 
-public abstract class NotifierDetector implements Notifier {
+public abstract class NotifierDecorator implements Notifier {
     protected Notifier wrappee;
 
-    public NotifierDetector(Notifier notifier) {
+    public NotifierDecorator(Notifier notifier) {
         this.wrappee = notifier;
     }
 

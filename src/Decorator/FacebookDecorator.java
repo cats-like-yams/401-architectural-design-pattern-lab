@@ -1,6 +1,6 @@
 package Decorator;
 
-public class FacebookDecorator extends NotifierDetector{
+public class FacebookDecorator extends NotifierDecorator{
     private String acccount;
 
     public FacebookDecorator(Notifier notifier, String acccount) {

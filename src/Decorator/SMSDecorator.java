@@ -1,6 +1,6 @@
 package Decorator;
 
-public class SMSDecorator extends NotifierDetector {
+public class SMSDecorator extends NotifierDecorator {
     private String phone;
 
     public SMSDecorator(Notifier notifier, String phone) {

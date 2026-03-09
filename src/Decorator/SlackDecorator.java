@@ -1,6 +1,6 @@
 package Decorator;
 
-public class SlackDecorator extends NotifierDetector {
+public class SlackDecorator extends NotifierDecorator {
     private String channel;
 
     public SlackDecorator(Notifier notifier, String channel) {
